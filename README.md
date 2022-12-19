@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-    <a href="https://vinepereira.github.io/404-not-found-dev-challenges/">
+    <a href="https://vinepereira.github.io/Checkout-Page-DevChallenges/">
       Solution
     </a>
     <span> | </span>

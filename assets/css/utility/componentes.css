@@ -1,0 +1,12 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bg-action {
+    width: 21px;
+    height: 21px;
+    color: #E0E0E0;
+    border-radius: 4px;
+}
