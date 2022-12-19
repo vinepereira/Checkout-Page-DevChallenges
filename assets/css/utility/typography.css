@@ -11,6 +11,33 @@ h2 {
     font-size: 1.125rem; /* 18px */
 }
 
-h3 {
+label {
     font-size: 0.75rem; /* 12px */
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 0.875rem; /* 14px */
+    }
+    
+    label {
+        font-size: 0.625rem; /* 10px */
+    }
+}
+@media (max-width:600px) {
+    h1 {
+        font-size: 1.5rem; /* 24px */
+    }
+    
+    h2 {
+        font-size: 0.875rem; /* 14px */
+    }
+    
+    label {
+        font-size: 0.625rem; /* 10px */
+    }
 }

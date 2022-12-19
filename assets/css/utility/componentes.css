@@ -10,3 +10,20 @@
     color: #E0E0E0;
     border-radius: 4px;
 }
+
+.button {
+    background-color: var(--color-enf-1);
+    color: #fff;
+    padding: 17px 45px;
+    border-radius: 12px;
+    border: none;
+    max-width: max-content;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color:#eb9f5c ;
+    transform: scale(1.03);
+}
+

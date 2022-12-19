@@ -3,8 +3,8 @@
     --color-h1: #4E5150;
     --color-h2: #333333;
     --color-h3: #4F4F4F;
-    --color-place-h:#828282;
-    --color-enf-1:#F2994A;
+    --color-place-h: #828282;
+    --color-enf-1: #F2994A;
     --color-card: #F2F2F2;
 }
 
@@ -12,12 +12,18 @@
     color: var(--color-icons);
 }
 
+.color-enf-1 {
+    color: var(--color-enf-1);
+}
+
 h1 {
     color: var(--color-h1);
 }
+
 h2 {
     color: var(--color-h2);
 }
-h3 {
+
+label {
     color: var(--color-h3);
 }
