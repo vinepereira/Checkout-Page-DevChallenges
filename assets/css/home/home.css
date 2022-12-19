@@ -9,7 +9,23 @@ main.container {
 main h1:first-child {
     grid-column: 1/-1;
     margin-bottom: 50px;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
 
 .main-form form {
     display: grid;
@@ -164,6 +180,7 @@ button#buttondesktop {
     background-color: var(--color-card);
     border-radius: 12px;
     padding: 20px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .1);
 }
 
 .item-card {
@@ -190,6 +207,12 @@ button#buttondesktop {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: .3s;
+}
+
+.item-img img:hover {
+    transform: scale(1.03);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .2);
 }
 
 .item-description {
