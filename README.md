@@ -19,19 +19,23 @@
 
 ## Overview
 
-![screenshot](./overview.png)
+![screenshot](./desktop.png)
 
 
 ### Built With
 
 - HTML
 - CSS
+- JS
 
 ## Features
 
 - This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
-- Responsive using display grid
+- Responsive using display grid.
 - An animation was also inserted into the image.
+- Added a confirmation page for sent data.
+- A basic js on the buttons to add and remove the number of items in stock. The price does not add up (I have little knowledge in js yet).
+
 
 
 ## Contact
