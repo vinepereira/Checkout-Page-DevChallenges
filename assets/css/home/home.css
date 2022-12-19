@@ -92,7 +92,12 @@ input::-webkit-inner-spin-button {
     position: absolute;
     color: var(--color-icons);
     left: 15px;
-    top: 29px;
+    top: 27px;
+}
+
+.form-input span.public {
+    background-color: saddlebrown;
+    top: 26px;
 }
 
 .form-input label#setinha {
@@ -100,7 +105,7 @@ input::-webkit-inner-spin-button {
     color: var(--color-icons);
     right: 10px;
     left: initial;
-    top: 29px;
+    top: 26px;
     background-color: #E0E0E0;
     border-radius: 4px;
     pointer-events: none;
